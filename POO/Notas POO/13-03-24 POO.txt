@@ -1,0 +1,16 @@
+Anotaciones POO clase 11/03/24 (1) --> PROGRAMACIÓN ORIENTADA A OBJETOS
+-Examenes a libro abierto
+
+
+Vamos a usar bibliotecas para definiar interfaces gráficas, ya que hacerlas es muy engorroso.
+Vamos a crear objetos previamente definidos en bibliotecas para poder hacer las ventanas.
+Vamos a usar un poco de Python y otros lenguajes en conjunto a C++.
+
+Vamos a tener que usar GITHUB. Osimani Carga el contenido en un github, donde esta toda la información 
+Puedo sacar información de donde quiera, pero tengo que saber explicar todo por mi cuenta
+
+
+
+Escribir "Ping www.google.com" en la terminar ejecuta un código .exe
+Ping utiliza el protocolo ICMP, el cual tira un paquete pequeño y mide el tiempo de respuesta al volver.
+El hola mundo es un programa que puede ser ejecutado como C:\>hola.exe	
