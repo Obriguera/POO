@@ -1,7 +1,7 @@
 # POO     - Octavio Briguera
 Archivos, carpetas y ejercicios de la materia POO (Programación Orientada a Objetos)
 
-ACLARACIÓN: La consigna del ejercicio se encuentra generalmente en el archivo main.cpp de la actividad. En caso de no haber un main.cpp pero solo hacer un archivo .cpp, la informacion de la actividad esta en ese archivo.
+ACLARACIÓN: La consigna del ejercicio se encuentra generalmente en el archivo main.cpp de la actividad. En caso de no haber un main.cpp pero solo hacer un archivo .cpp, la informacion de la actividad esta en ese archivo. Tambíen puede haber un archivo llamado consigna.txt
 
 ///////////////////////////////////////
 
