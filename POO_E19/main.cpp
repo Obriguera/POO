@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-#include <QApplication>
-#include "pintura.h"
-
-int main(int argc, char *argv[]) {
-    QApplication a(argc, argv);
-    Pintura pintura;
-    pintura.show();
-    return a.exec();
-}
-=======
 /*
 CONSIGNA:
     -Crear una clase Pintura que herede de QWidget y que permita dibujar a mano alzada con el mouse.
@@ -26,4 +15,3 @@ int main(int argc, char *argv[]) {
     pintura.show();
     return a.exec();
 }
->>>>>>> c0a71fc (01 06 24 update)

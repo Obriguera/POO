@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-#include <QApplication>
-#include "login.h"
-
-int main(int argc, char *argv[]) {
-    QApplication a(argc, argv);
-
-    Login login;
-    login.show();
-
-    return a.exec();
-}
-=======
 /*
 CONSIGNA:
     -Diseñar un login que cargue como fondo, una imagen descargada de internet
@@ -30,4 +17,3 @@ int main(int argc, char *argv[]) {
 
     return a.exec();
 }
->>>>>>> c0a71fc (01 06 24 update)
