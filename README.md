@@ -5,4 +5,4 @@ ACLARACIÓN: La consigna del ejercicio se encuentra dentro de cada carpeta de ca
 
 
 /////////////////////////////////////
-Actualización 10-06-24 - Se agregaron los ejercicios hasta el 25
+Actualización 10-06-24 - Se agregaron los ejercicios hasta el 25 de (https://github.com/cosimani/Curso-POO-2024)
