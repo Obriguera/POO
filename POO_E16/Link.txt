@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-http://localhost:8000/validar_usuario?usuario=juan123&clave=clave123
-=======
-http://localhost:8000/validar_usuario?usuario=juan123&clave=clave123
->>>>>>> c0a71fc (01 06 24 update)
