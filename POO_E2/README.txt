@@ -1,1 +1,0 @@
-La carpeta saludos contiene la librería que llama el programa de la carpeta Ejercicio2
