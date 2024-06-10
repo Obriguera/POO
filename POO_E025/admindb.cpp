@@ -26,7 +26,7 @@ void AdminDB::close() {
 
 bool AdminDB::addUser(const QString& username, const QString& password) {
     QSqlQuery query(getInstance());
-    query.prepare("INSERT INTO Usuarios (USERNAME, PASSWORD) VALUES (:username, :password)");
+    query.prepare("INSERT INTO Usuarios (nombre_usuario, contrasena) VALUES (:username, :password)");
     query.bindValue(":username", username);
     query.bindValue(":password", password);
     if (!query.exec()) {
@@ -38,7 +38,7 @@ bool AdminDB::addUser(const QString& username, const QString& password) {
 
 bool AdminDB::validateUser(const QString& username, const QString& password) {
     QSqlQuery query(getInstance());
-    query.prepare("SELECT * FROM Usuarios WHERE USERNAME = :username AND PASSWORD = :password");
+    query.prepare("SELECT * FROM Usuarios WHERE nombre_usuario = :username AND contrasena = :password");
     query.bindValue(":username", username);
     query.bindValue(":password", password);
     if (!query.exec()) {
@@ -51,7 +51,7 @@ bool AdminDB::validateUser(const QString& username, const QString& password) {
 QVector<QVector<QString>> AdminDB::getAllUsers() {
     QVector<QVector<QString>> users;
     QSqlQuery query(getInstance());
-    query.prepare("SELECT ID, USERNAME, PASSWORD FROM Usuarios");
+    query.prepare("SELECT ID, nombre_usuario, contrasena FROM Usuarios");
     if (!query.exec()) {
         qDebug() << "getAllUsers error: " << query.lastError();
         return users;

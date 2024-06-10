@@ -21,9 +21,6 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="1">
-    <widget class="QLineEdit" name="leClave"/>
-   </item>
    <item row="2" column="0">
     <widget class="QPushButton" name="loginButton">
      <property name="text">
@@ -31,15 +28,8 @@
      </property>
     </widget>
    </item>
-   <item row="0" column="1">
-    <widget class="QLineEdit" name="leUsuario"/>
-   </item>
-   <item row="1" column="0">
-    <widget class="QLabel" name="lClave">
-     <property name="text">
-      <string>Clave</string>
-     </property>
-    </widget>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="leClave"/>
    </item>
    <item row="3" column="0">
     <spacer name="verticalSpacer">
@@ -54,16 +44,23 @@
      </property>
     </spacer>
    </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="leUsuario"/>
+   </item>
    <item row="4" column="1">
-    <widget class="QLabel" name="registerLabel">
-     <property name="enabled">
+    <widget class="QPushButton" name="lregistrar">
+     <property name="text">
+      <string>Registrar Usuario</string>
+     </property>
+     <property name="flat">
       <bool>true</bool>
      </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="lClave">
      <property name="text">
-      <string>Nuevo Usuario</string>
-     </property>
-     <property name="openExternalLinks">
-      <bool>false</bool>
+      <string>Clave</string>
      </property>
     </widget>
    </item>

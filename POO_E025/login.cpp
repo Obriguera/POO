@@ -1,16 +1,17 @@
+// login.cpp
 #include "login.h"
 #include "ui_login.h"
+#include "registro.h"
+#include "QMessageBox"
 #include "admindb.h"
 #include "lista.h"
-#include "QMessageBox"
-#include "registro.h"
 
 Login::Login(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::Login)
 {
     ui->setupUi(this);
-    connect(ui->registerLabel, &QLabel::clicked, this, &Login::on_registerLabel_clicked);
+    connect(ui->lregistrar, &QPushButton::clicked, this, &Login::on_lregistrar_clicked);
 }
 
 Login::~Login()
@@ -31,7 +32,7 @@ void Login::on_loginButton_clicked() {
     }
 }
 
-void Login::on_registerLabel_clicked() {
+void Login::on_lregistrar_clicked() {
     Registro *registerWindow = new Registro(this);
     registerWindow->show();
 }

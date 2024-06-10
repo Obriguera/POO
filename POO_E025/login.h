@@ -1,9 +1,9 @@
+// login.h
 #ifndef LOGIN_H
 #define LOGIN_H
 
 #include <QWidget>
 #include <QLabel>
-#include <qlabel.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Login; }
@@ -19,7 +19,7 @@ public:
 
 private slots:
     void on_loginButton_clicked();
-    void on_registerLabel_clicked();
+    void on_lregistrar_clicked();
 
 private:
     Ui::Login *ui;
